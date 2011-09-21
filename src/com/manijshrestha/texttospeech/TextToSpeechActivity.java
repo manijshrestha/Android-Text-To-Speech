@@ -77,4 +77,13 @@ public class TextToSpeechActivity extends Activity implements OnInitListener{
         }
 		
 	}
+	
+	@Override
+    public void onDestroy() {
+        if (mTts != null) {
+            mTts.stop();
+            mTts.shutdown();
+        }
+        super.onDestroy();
+    }
 }

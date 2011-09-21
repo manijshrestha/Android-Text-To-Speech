@@ -2,4 +2,5 @@
 <resources>
     <string name="hello">Hello World, TextToSpeechActivity!</string>
     <string name="app_name">TextToSpeech</string>
+    <string name="type_a_text">Type a Text</string>
 </resources>

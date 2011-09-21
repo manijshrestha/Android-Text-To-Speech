@@ -7,6 +7,16 @@
 <TextView  
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="@string/hello"
+    android:text="@string/type_a_text"
     />
+<EditText 
+	android:id="@+id/wordToSpeak"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"    
+    />
+<Button 
+	android:id="@+id/btnSpeak"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="Speak"/>
 </LinearLayout>
